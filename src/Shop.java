@@ -19,4 +19,12 @@ public class Shop {
     public void advertise(){
 
     }
+
+  public String getKind() {
+    return kind;
+  }
+
+  public void setKind(String kind) {
+    this.kind = kind;
+  }
 }
